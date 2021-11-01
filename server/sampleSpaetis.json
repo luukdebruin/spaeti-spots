@@ -1,0 +1,22 @@
+{
+    "029340293402": {
+        "name": "Spati 1",
+        "description": "This is a spati",
+        "street": "Baumschulenstrasse 7",
+        "zipcode": 12437,
+        "neighbourhood": "Treptow",
+        "average": 1.2,
+        "image": "url/blablabla",
+        "tags": ["tag1", "tag2", "tag4"]
+    },
+    "029340293401": {
+        "name": "Spati 2",
+        "description": "This is a spati",
+        "street": "Baumschulenstrasse 7",
+        "zipcode": 12437,
+        "neighbourhood": "Treptow",
+        "average": 1.2,
+        "image": "url/blablabla",
+        "tags": ["tag1", "tag2", "tag4"]
+    }
+}
