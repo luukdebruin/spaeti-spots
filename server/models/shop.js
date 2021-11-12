@@ -11,11 +11,19 @@ const shopSchema = new mongoose.Schema({
     },
     street: {
         type: String,
-        required: true
+        required: false
     },
     zipcode: {
         type: Number,
         required: false
+    },
+    lat: {
+        type: Number,
+        required: true
+    },
+    lng: {
+        type: Number,
+        required: true
     },
     neighbourhood: {
         type: String,

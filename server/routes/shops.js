@@ -43,7 +43,9 @@ router.get("/:id", getShop, (req, res) => {
 router.post("/", async (req, res) => {
   const shop = new Shop({
     name: req.body.name,
-    street: req.body.street
+    street: req.body.street,
+    lat: req.body.lat,
+    lng: req.body.lng
   })
 
   try {
@@ -65,9 +67,6 @@ router.post("/", async (req, res) => {
 router.patch("/:id", getShop, async (req, res) => {
   if(req.body.name != null) {
     res.shop.name = req.body.name
-  }
-  if(req.body.street != null) {
-    res.shop.street = req.body.street
   }
   try {
     const updatedShop = await res.shop.save()
